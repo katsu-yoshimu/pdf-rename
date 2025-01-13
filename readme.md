@@ -1,6 +1,6 @@
 # pdf-rename
 
-## インストール方法
+## サンプル版のインストール方法
 
 ```cmd
 cd %適当なディレクトリ%
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ※前提※ Windows PC に python 3 インストール済
 
-## サンプルのディレクトリ、ファイル構成
+## サンプル版のディレクトリ、ファイル構成
 
 ```text:dir
 　pdf-rename
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 PDFは機密事項のため「input」ディレクトリはご自分で準備ください。
 
-## 実行方法
+## サンプル版の実行方法
 
 ```cmd
 cd %適当なディレクトリ%
@@ -35,7 +35,7 @@ cd pdf-rename
 python sample.py
 ```
 
-## 実行結果
+## サンプル版の実行結果
 
 ```text
 請求元は「mipick CO., LTD.」です。編集後は「mipickCO.,LTD.」です
@@ -47,7 +47,7 @@ python sample.py
 
 ※PDFファイルのリネームはなし。PDFファイルからテキスト抽出と編集のみ実施
 
-## 補足
+## サンプル版の補足
 
 - extractTextFromPDFFile クラスを継承して、パターンごとにextractTextFromPDFFile_elogcクラスの請求元、日付、金額の抽出、編集メソッドを編集して、対応できるように考慮しています。
 
