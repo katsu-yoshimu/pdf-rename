@@ -1,5 +1,19 @@
 # pdf-rename
 
+## インストール方法
+
+```cmd
+cd %適当なディレクトリ%
+git clone https://github.com/katsu-yoshimu/pdf-rename.git
+cd pdf-rename
+python -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+※前提※ Windows PC に python 3 インストール済
+
 ## サンプルのディレクトリ、ファイル構成
 
 ```text:dir
@@ -16,15 +30,10 @@ PDFは機密事項のため「input」ディレクトリはご自分で準備く
 ## 実行方法
 
 ```cmd
-git clone https://github.com/katsu-yoshimu/pdf-rename.git
+cd %適当なディレクトリ%
 cd pdf-rename
-python -m venv .venv
-pip install -r requirements.txt
-.venv/Scripts/activate.bat
 python sample.py
 ```
-
-※前提※ Windows PC に python 3 インストール済
 
 ## 実行結果
 
