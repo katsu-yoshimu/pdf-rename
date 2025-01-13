@@ -1,0 +1,2 @@
+pdfminer3
+pandas
