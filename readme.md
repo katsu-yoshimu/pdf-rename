@@ -18,11 +18,15 @@ pip install -r requirements.txt
 
 ```text:dir
 　pdf-rename
-　 +- sample.py
+　 +- sample2.py
 　 +- requirements.txt
   input
-　 +- elogi_invoice_first_payment-29.pdf  ← ご提供いただいたPDF
-　 +- memo.txt                            ← 適当なテキストファイル（PDF解析エラーの確認用）
+　 +- elogi_invoice_first_payment-26.pdf     ← ご提供いただいたPDF
+　 +- 20241004_楽天モバイル_1081.pdf          ← ご提供いただいたPDF
+　 +- 20241027_アマゾンジャパン_1419.pdf       ← ご提供いただいたPDF
+　 +- 20241011_ソフトバンク_10786.PDF         ← ご提供いただいたPDF
+　 +- 20241014_NTTコミュニケーションズ_333.pdf ← ご提供いただいたPDF
+　 +- memo.txt                               ← 適当なテキストファイル（PDF解析エラーの確認用）
 ```
 
 PDFは機密事項のため「input」ディレクトリはご自分で準備ください。
@@ -32,7 +36,7 @@ PDFは機密事項のため「input」ディレクトリはご自分で準備く
 ```cmd
 cd %適当なディレクトリ%
 cd pdf-rename
-python sample.py
+python sample2.py
 ```
 
 ## サンプル版の実行結果
